@@ -1,7 +1,9 @@
 # rtjv_itemscreator
 Items Creator | ESX | UI By TusMuertos.#4903 &amp; Code by RTDTonino#2060
 
-#
+## Config
+
+- You can add a webhook to discord
 
 ## How to use **Create Item**
 
