@@ -1,0 +1,327 @@
+
+@font-face {
+    font-family: jav2;
+    src: url(https://cdn.discordapp.com/attachments/851889255437566012/975355110475591790/LexendDeca-Regular.ttf);
+}
+
+*{
+    font-family: jav2;
+}
+
+body {
+    background: none !important;
+}
+
+.container {
+    font-size: 20px;
+    color: white;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.938);
+    box-shadow: 0 0 10px black;
+    height: 16vw;
+    width: 20vw;
+    border-radius: 3px;
+    animation: paarriba .3s;
+}
+
+i{
+    position: absolute;
+    top: 18.3vw;
+    left: .4vw;
+    color: white;
+    font-size: 1.2vw;
+}
+
+.titulo{
+    position: absolute;
+    top: 1vw;
+    left: 3.8vw;
+    color: white;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.247);
+    font-family: jav2;
+    font-size: 1.5em;
+    width: 11vw;
+    text-align: center;
+    padding: .5vw;
+    border-radius: 2px;
+}
+
+.boton1{
+    font-family: jav2;
+    color: white;
+    position: absolute;
+    top: 7vw;
+    left: 7vw;
+    width: 6vw;
+    height: 2.3vw;
+    border: none;
+    border-radius: 3px;
+    font-size: .8em;
+    text-align: center;
+    background-color: rgba(250, 250, 250, 0.288);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.171);
+    transition: ease-in-out .3s;
+}
+
+.boton1:hover{
+    background-color: rgba(19, 87, 2, 0.651);
+    box-shadow: 0 0 10px rgba(19, 87, 2, 0.651);
+    transform: scale(1.1);
+    transition: ease-in-out .3s;
+}
+
+.eliminar{
+    font-family: jav2;
+    color: white;
+    position: absolute;
+    top: 10.5vw;
+    left: 7vw;
+    width: 6vw;
+    height: 2.3vw;
+    border: none;
+    border-radius: 3px;
+    font-size: .8em;
+    text-align: center;
+    background-color: rgba(250, 250, 250, 0.288);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.171);
+    transition: ease-in-out .3s;
+}
+
+.eliminar:hover{
+    background-color: rgba(65, 1, 1, 0.651);
+    box-shadow: 0 0 10px rgba(65, 1, 1, 0.651);
+    transform: scale(1.1);
+    transition: ease-in-out .3s;
+}
+
+.contenido {
+    font-size: 20px;
+    color: white;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.938);
+    box-shadow: 0 0 10px black;
+    height: 20vw;
+    width: 20vw;
+    border-radius: 2px;
+    animation: slide-up .4s;
+    border: .2vw dashed rgb(104, 103, 103);
+}
+
+.detalles{
+    top: 2vw;
+    left: 4.8vw;
+    font-size: 1.2em;
+    position: absolute;
+    color: white;
+    font-family: jav2;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.459);
+}
+
+.input1 {
+    color: white;
+    position: absolute;
+    top: 5vw;
+    left: 4vw;
+    background-color: rgba(255, 255, 255, 0.671);
+    width: 12vw;
+    font-size: .9em;
+    padding: .6vw;
+    border: .12vw solid rgb(83, 83, 83);
+    border-radius: 3px;
+}
+
+.input1:focus{
+    background-color: rgba(255, 255, 255, 0.308);
+    border: .12vw solid rgb(83, 83, 83);
+    resize: none;
+    outline: none;
+    transition: ease-in-out .2s;
+}
+
+.input2 {
+    color: white;
+    position: absolute;
+    top: 8.5vw;
+    left: 4vw;
+    background-color: rgba(255, 255, 255, 0.671);
+    width: 12vw;
+    font-size: .9em;
+    padding: .6vw;
+    border: .12vw solid rgb(83, 83, 83);
+    border-radius: 3px;
+}
+
+.input2:focus{
+    background-color: rgba(255, 255, 255, 0.308);
+    border: .12vw solid rgb(83, 83, 83);
+    resize: none;
+    outline: none;
+    transition: ease-in-out .2s;
+}
+
+.input3 {
+    color: white;
+    position: absolute;
+    top: 12vw;
+    left: 4vw;
+    background-color: rgba(255, 255, 255, 0.671);
+    width: 12vw;
+    font-size: .9em;
+    padding: .6vw;
+    border: .12vw solid rgb(83, 83, 83);
+    border-radius: 3px;
+}
+
+.input3:focus{
+    background-color: rgba(255, 255, 255, 0.308);
+    border: .12vw solid rgb(83, 83, 83);
+    resize: none;
+    outline: none;
+    transition: ease-in-out .2s;
+}
+
+.boton2{
+    position: absolute;
+    font-size: .8em;
+    top: 16vw;
+    left: 7.4vw;
+    text-align: center;
+    width: 5vw;
+    padding: .7vw;
+    background-color: rgb(97, 97, 97);
+    color: white;
+    border-radius: 3px;
+    border: none;
+    transition: ease-in .3s;
+}
+
+.boton2:hover{
+    background-color: rgba(19, 87, 2, 0.651);
+    box-shadow: 0 0 10px rgba(19, 87, 2, 0.651);
+    transition: ease-in .3s;
+}
+
+.contenido2 {
+    font-size: 20px;
+    color: white;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.938);
+    box-shadow: 0 0 10px black;
+    height: 20vw;
+    width: 20vw;
+    border-radius: 2px;
+    animation: slide-up .5s;
+    border: .2vw dashed rgb(104, 103, 103);
+}
+
+.boton3{
+    position: absolute;
+    font-size: .8em;
+    top: 16vw;
+    left: 7.4vw;
+    text-align: center;
+    width: 5vw;
+    padding: .7vw;
+    background-color: rgb(97, 97, 97);
+    color: white;
+    border-radius: 3px;
+    border: none;
+    transition: ease-in-out .3s;
+}
+
+.boton3:hover{
+    background-color: rgba(65, 1, 1, 0.651);
+    box-shadow: 0 0 10px rgba(65, 1, 1, 0.651);
+    transition: ease-in-out .3s;
+}
+
+.input4 {
+    color: white;
+    position: absolute;
+    top: 8.5vw;
+    left: 4vw;
+    background-color: rgba(255, 255, 255, 0.671);
+    width: 12vw;
+    font-size: .9em;
+    padding: .6vw;
+    border: .12vw solid rgb(83, 83, 83);
+    border-radius: 3px;
+}
+
+.input4:focus{
+    background-color: rgba(255, 255, 255, 0.308);
+    border: .12vw solid rgb(83, 83, 83);
+    resize: none;
+    outline: none;
+    transition: ease-in-out .2s;
+}
+
+.volver{
+    position: absolute;
+    top: 18vw;
+    left: .5vw;
+    color: white;
+    width: 4vw;
+    padding: .2vw;
+    font-size: .7em;
+    text-align: center;
+    border-radius: 3px;
+    background-color: rgb(59, 59, 59);
+}
+
+.volver:hover{
+    background-color: rgba(255, 255, 255, 0.308);
+    transition: ease-in-out .4s;
+    cursor: pointer;
+}
+
+.volver2{
+    position: absolute;
+    top: 18vw;
+    left: .5vw;
+    color: white;
+    width: 4vw;
+    padding: .2vw;
+    font-size: .7em;
+    text-align: center;
+    border-radius: 3px;
+    background-color: rgb(59, 59, 59);
+}
+
+.volver2:hover{
+    background-color: rgba(255, 255, 255, 0.308);
+    transition: ease-in-out .4s;
+    cursor: pointer;
+}
+
+
+/* Animaciones */
+
+@keyframes paarriba {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100;
+    }
+}
+
+@keyframes slide-up {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100;
+    }
+}
+
+/* Fin , buen dia de parte de TusMuertos.#4903 */
