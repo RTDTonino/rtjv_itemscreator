@@ -12,7 +12,7 @@ RegisterNetEvent('crearitem',function(data)
             ['@rare'] = 0,
             ['@can_remove'] = 1,
         })
-        print('RTJV ITEMS] [^2INFO^7] Item Agregado | ' .. data.name .. ' | ' .. data.label .. ' | ' .. data.weight .. ' | ')
+        xPlayer.showNotification('RTJV ITEMS] [INFO] Item Agregado | ' .. data.name .. ' | ' .. data.label .. ' | ' .. data.weight .. ' | ')
         sendDiscord('RTJV ITEM CREATOR', 'El administrador ['.. playername ..'] creo el item ' .. data.label .. '  con el codigo de spawn de ' .. data.name .. ' y un peso de ' .. data.weight .. '')
     else
         xPlayer.showNotification("Permisos insuficientes")
@@ -27,7 +27,7 @@ RegisterNetEvent('eliminar',function(data)
         MySQL.Async.execute('DELETE FROM items WHERE name = @name', {
             ['@name'] = data.name,
         })
-        print('[RTJV ITEMS] [^2INFO^7] Item Eliminado | ' .. data.name .. ' | ')
+        xPlayer.showNotification('[RTJV ITEMS] [INFO] Item Eliminado | ' .. data.name .. ' | ')
         sendDiscord('RTJV ITEM CREATOR', 'El administrador ['.. playername ..'] elimino el item ' .. data.name .. '')
     else
         xPlayer.showNotification("Permisos insuficientes")
