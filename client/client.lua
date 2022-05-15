@@ -5,6 +5,7 @@ local display = false
 RegisterNetEvent('abrir')
 AddEventHandler('abrir', function(bool)
     SetDisplay(true)
+    ExecuteCommand('e tablet2')
 end)
 
 RegisterNUICallback("salir", function(data)
