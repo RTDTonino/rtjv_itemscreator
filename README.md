@@ -7,11 +7,11 @@ Items Creator | ESX | UI By TusMuertos.#4903 &amp; Code by RTDTonino#2060
 
 - Add the name, lable & weight of the item in the UI
 
-- Click **Aceptar**
+- Click **Aceptar** & Restart your server
 
 ## How to use **Delete Item**
 
-- Insert the item **name** you want to delete and click **Eliminar**
+- Insert the item **name** you want to delete and click **Eliminar** & Restart your server
 
 
 
