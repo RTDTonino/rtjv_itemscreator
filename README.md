@@ -17,7 +17,7 @@ Items Creator | ESX | UI By TusMuertos.#4903 &amp; Code by RTDTonino#2060
 
 - Insert the item **name** you want to delete and click **Eliminar** & Restart your server
 
-## Previews:  https://streamable.com/w6utdv
+## Previews: https://streamable.com/4dh9hb
 
 ### https://discord.gg/HRsg2pAy2b
 
