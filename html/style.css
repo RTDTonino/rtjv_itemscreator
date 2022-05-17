@@ -49,7 +49,7 @@ i{
     border-radius: 2px;
 }
 
-.boton1{
+.crear{
     font-family: jav2;
     color: white;
     position: absolute;
@@ -66,7 +66,7 @@ i{
     transition: ease-in-out .3s;
 }
 
-.boton1:hover{
+.crear:hover{
     background-color: rgba(19, 87, 2, 0.651);
     box-shadow: 0 0 10px rgba(19, 87, 2, 0.651);
     transform: scale(1.1);
@@ -127,9 +127,9 @@ i{
     color: white;
     position: absolute;
     top: 5vw;
-    left: 4vw;
+    left: 2vw;
     background-color: rgba(255, 255, 255, 0.671);
-    width: 12vw;
+    width: 7vw;
     font-size: .9em;
     padding: .6vw;
     border: .12vw solid rgb(83, 83, 83);
@@ -147,10 +147,10 @@ i{
 .input2 {
     color: white;
     position: absolute;
-    top: 8.5vw;
-    left: 4vw;
+    top: 5vw;
+    left: 10vw;
     background-color: rgba(255, 255, 255, 0.671);
-    width: 12vw;
+    width: 7vw;
     font-size: .9em;
     padding: .6vw;
     border: .12vw solid rgb(83, 83, 83);
@@ -168,10 +168,10 @@ i{
 .input3 {
     color: white;
     position: absolute;
-    top: 12vw;
-    left: 4vw;
+    top: 11.9vw;
+    left: 6.4vw;
     background-color: rgba(255, 255, 255, 0.671);
-    width: 12vw;
+    width: 7vw;
     font-size: .9em;
     padding: .6vw;
     border: .12vw solid rgb(83, 83, 83);
@@ -186,7 +186,49 @@ i{
     transition: ease-in-out .2s;
 }
 
-.boton2{
+.input4 {
+    color: white;
+    position: absolute;
+    top: 8.5vw;
+    left: 2vw;
+    background-color: rgba(255, 255, 255, 0.671);
+    width: 7vw;
+    font-size: .9em;
+    padding: .6vw;
+    border: .12vw solid rgb(83, 83, 83);
+    border-radius: 3px;
+}
+
+.input4:focus{
+    background-color: rgba(255, 255, 255, 0.308);
+    border: .12vw solid rgb(83, 83, 83);
+    resize: none;
+    outline: none;
+    transition: ease-in-out .2s;
+}
+
+.input5 {
+    color: white;
+    position: absolute;
+    top: 8.5vw;
+    left: 10vw;
+    background-color: rgba(255, 255, 255, 0.671);
+    width: 7vw;
+    font-size: .9em;
+    padding: .6vw;
+    border: .12vw solid rgb(83, 83, 83);
+    border-radius: 3px;
+}
+
+.input5:focus{
+    background-color: rgba(255, 255, 255, 0.308);
+    border: .12vw solid rgb(83, 83, 83);
+    resize: none;
+    outline: none;
+    transition: ease-in-out .2s;
+}
+
+.aceptar{
     position: absolute;
     font-size: .8em;
     top: 16vw;
@@ -201,7 +243,7 @@ i{
     transition: ease-in .3s;
 }
 
-.boton2:hover{
+.aceptar:hover{
     background-color: rgba(19, 87, 2, 0.651);
     box-shadow: 0 0 10px rgba(19, 87, 2, 0.651);
     transition: ease-in .3s;
@@ -244,7 +286,7 @@ i{
     transition: ease-in-out .3s;
 }
 
-.input4 {
+.input6 {
     color: white;
     position: absolute;
     top: 8.5vw;
@@ -257,52 +299,13 @@ i{
     border-radius: 3px;
 }
 
-.input4:focus{
+.input6:focus{
     background-color: rgba(255, 255, 255, 0.308);
     border: .12vw solid rgb(83, 83, 83);
     resize: none;
     outline: none;
     transition: ease-in-out .2s;
 }
-
-.volver{
-    position: absolute;
-    top: 18vw;
-    left: .5vw;
-    color: white;
-    width: 4vw;
-    padding: .2vw;
-    font-size: .7em;
-    text-align: center;
-    border-radius: 3px;
-    background-color: rgb(59, 59, 59);
-}
-
-.volver:hover{
-    background-color: rgba(255, 255, 255, 0.308);
-    transition: ease-in-out .4s;
-    cursor: pointer;
-}
-
-.volver2{
-    position: absolute;
-    top: 18vw;
-    left: .5vw;
-    color: white;
-    width: 4vw;
-    padding: .2vw;
-    font-size: .7em;
-    text-align: center;
-    border-radius: 3px;
-    background-color: rgb(59, 59, 59);
-}
-
-.volver2:hover{
-    background-color: rgba(255, 255, 255, 0.308);
-    transition: ease-in-out .4s;
-    cursor: pointer;
-}
-
 
 /* Animaciones */
 
