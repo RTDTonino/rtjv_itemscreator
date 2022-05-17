@@ -36,23 +36,25 @@ $(() => {
 
 // Funciones
 
-$('.boton1').on('click', () => {
+$('.crear').on('click', () => {
     $(".container").fadeOut();
     $(".contenido").fadeIn();
 })
 
-$('.boton2').on('click', () => {
+$('.aceptar').on('click', () => {
     $.post('https://'+GetParentResourceName()+'/crearitem1', JSON.stringify({
         name:$('.input1').val(),
         label:$('.input2').val(),
-        weight:$('.input3').val()
+        weight:$('.input3').val(),
+        status:$('.input4').val(),
+        quantity:$('.input5').val()
     }));
     $(".contenido").fadeOut();
 })
 
 $('.boton3').on('click', () => {
     $.post('https://'+GetParentResourceName()+'/eliminaritem', JSON.stringify({
-        name:$('.input4').val()
+        name:$('.input6').val()
     }));
     $(".contenido2").fadeOut();
 })
