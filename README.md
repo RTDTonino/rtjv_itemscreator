@@ -7,7 +7,9 @@ Items Creator | ESX | UI By TusMuertos.#4903 &amp; Code by RTDTonino#2060
 
 ## How to use **Create Item**
 
-- Add the name, lable & weight of the item in the UI
+- Add the name, lable & peso of the item in the UI
+
+- add the tipo (hunger, thisrt, health, armour) & cantidad (0 - 100) (the quantity of hunger, thisrt, health, armour) that it's going to increase.
 
 - Click **Aceptar** & Restart your server
 
